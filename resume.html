@@ -1,0 +1,91 @@
+<html>
+<head>
+    <link rel="stylesheet" href="./resume.css">
+</head>
+<body>
+<div class="container">
+    <h1 class="heading">Resume</h1>
+    <div class="row">
+        <div id="name" class="content">
+            
+        </div>
+    </div>
+    <div id="address" class="content">
+
+    </div>
+
+    <div class="row">
+        <h1>Professional Summary</h1>
+        <button id="hideShow" onclick="hideShow(event)">Hide</button>
+        <button id="colorChanger" onclick="colorChanger(event)">Change Color</button>
+        <hr/>
+        <div class="content">
+            <p class="summary-content">
+                Creative, Result Focused Professional with a Dedication to Work. With my growing skills, 
+				I would like to obtain a position where I can utilize acquired knowledge and collective experience 
+				in the best interest of the Company and Society. 
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <h1>Skills</h1>
+        <button id="hideShow" onclick="hideShow(event)">Hide</button>
+        <button id="colorChanger" onclick="colorChanger(event)">Change Color</button>
+        <hr/>
+        <div class="content">
+            <p class="span-6">HTML 5</p>
+            <p class="span-6">sql</p>
+            <p class="span-6">JavaScript</p>
+            <p class="span-6">python</p>
+        </div>
+    </div>
+    <div class="row">
+        <h1>Work Experience</h1>
+        <button id="hideShow" onclick="hideShow(event)">Hide</button>
+        <button id="colorChanger" onclick="colorChanger(event)">Change Color</button>
+        <hr/>
+		<div id="work Experience" onclick="showcompanyPic()" class="content">
+            <a  target="_blank" href="http://www.rajbhog.com/">
+			<img style="width:200px;height:200px;" src="" id="companyLogo"/>
+			</a>
+			
+        <div class="content">
+            <h3>Receptionist</h3>
+            <h4>Rajbhog foods </h4>
+            <p>
+                Dealing with orders by phone, fax or face-to-face
+            </p>
+            <p>dealing with complaints or problems
+            </p>
+			<p>
+			pick up call and answering questions about orders
+			</p>
+			<p>
+			managing files and give it up to supervisor
+			</p>
+			<p>
+			Manages Account using Erp
+			</p>
+        </div>
+    </div>
+    <div class="row">
+        <h1>Education</h1>
+        <button id="hideShow" onclick="hideShow(event)">Hide</button>
+        <button id="colorChanger" onclick="colorChanger(event)">Change Color</button>
+        <hr>
+        <div id="education" onclick="showCollegePic()" class="content">
+            <a  target="_blank" href="https://www.njcu.edu/">
+                <img style="width:200px;height:200px;" src="" id="collegeLogo"/>
+            </a>
+        </div>
+    </div>
+</div>
+<script type="application/javascript" src="./resume.js">
+
+</script>
+      
+      <h4>Why:<input type="text" id="inputvalue"></h4>
+	  <h4>Should Hire Ashish Patel:</h4><button onclick ="check(inputvalue);">Click Here</button>
+	  
+</body>
+</html>

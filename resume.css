@@ -1,0 +1,65 @@
+body {
+    font-family: sans-serif;
+    font-size: 14px;
+    letter-spacing: .7px;
+    font-weight: 500;
+}
+h1 {
+
+    font-weight: 300;
+    font-size: 28px;
+    margin-top: 45px;
+}
+p {
+    line-height: 20px;
+
+}
+.container {
+    width: 1024px;
+    border: 1px solid #ddd;
+    margin: auto;
+    box-shadow: 5px 5px 8px rgba(0,0,0,.2);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.span-6 {
+    width: 49%;
+    display: inline-block;
+}
+#hideShow {
+    position: relative;
+    margin-top: -45px;
+    left: 862px;
+    width: 100px;
+    line-height: 30px;
+    font-size: 14px;
+    background-color: #920808;
+    color: #fff;
+    border-radius: 4px;
+    border: 1px solid #000;
+}
+.hide {
+    display: none;
+}
+#collegeLogo {
+    display: none;
+}
+#colorChanger {
+    display: block;
+    position: relative;
+    margin-top: -45px;
+    left: 680px;
+    width: 150px;
+    line-height: 30px;
+    font-size: 14px;
+    background-color: rgba(146, 8, 8, 1);
+    border-radius: 4px;
+    border: 1px solid #000;
+    color: #fff;
+}
+.heading {
+    text-align: center;
+    font-size: 36px;
+}
